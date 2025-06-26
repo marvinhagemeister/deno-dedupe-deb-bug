@@ -1,0 +1,11 @@
+{
+  "name": "@marvinh-test/dedupe-bug",
+  "exports": "./mod.ts",
+  "license": "MIT",
+  "version": "1.0.0",
+  "imports": {
+    "@preact/signals": "npm:@preact/signals@^2.2.0",
+    "preact": "npm:preact@^10.26.6",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.5.13"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "links": ["../pkg"],
+  "imports": {
+    "@marvinh-test/dedupe-bug": "jsr:@marvinh-test/dedupe-bug@1",
+    "@preact/signals": "npm:@preact/signals@^2.2.0",
+    "preact": "npm:preact@^10.26.9",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.5.13"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "preact"
+  }
+}

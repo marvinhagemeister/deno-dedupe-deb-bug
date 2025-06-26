@@ -1,0 +1,42 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@preact/signals@^2.2.0": "2.2.0_preact@10.26.6",
+    "npm:preact-render-to-string@^6.5.11": "6.5.13_preact@10.26.6",
+    "npm:preact-render-to-string@^6.5.13": "6.5.13_preact@10.26.6",
+    "npm:preact@^10.26.6": "10.26.9",
+    "npm:preact@^10.26.9": "10.26.9"
+  },
+  "npm": {
+    "@preact/signals-core@1.10.0": {
+      "integrity": "sha512-qlKeXlfqtlC+sjxCPHt6Sk0/dXBrKZVcPlianqjNc/vW263YBFiP5mRrgKpHoO0q222Thm1TdYQWfCKpbbgvwA=="
+    },
+    "@preact/signals@2.2.0_preact@10.26.6": {
+      "integrity": "sha512-P3KPcEYyVk9Wiwfw68QQzRpPkt0H+zjfH3X4AaGCDlc86GuRBYFGiAxT1nC5F5qlsVIEmjNJ9yVYe7C91z3L+g==",
+      "dependencies": [
+        "@preact/signals-core",
+        "preact@10.26.6"
+      ]
+    },
+    "preact-render-to-string@6.5.13_preact@10.26.6": {
+      "integrity": "sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==",
+      "dependencies": [
+        "preact@10.26.6"
+      ]
+    },
+    "preact@10.26.6": {
+      "integrity": "sha512-5SRRBinwpwkaD+OqlBDeITlRgvd8I8QlxHJw9AxSdMNV6O+LodN9nUyYGpSF7sadHjs6RzeFShMexC6DbtWr9g=="
+    },
+    "preact@10.26.9": {
+      "integrity": "sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@marvinh-test/dedupe-bug@1",
+      "npm:@preact/signals@^2.2.0",
+      "npm:preact-render-to-string@^6.5.13",
+      "npm:preact@^10.26.9"
+    ]
+  }
+}
